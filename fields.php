@@ -24,6 +24,22 @@ acf_add_local_field_group(array(
 			'layout' => 'table',
 			'button_label' => '',
 			'sub_fields' => array(
+        array(
+          'key' => 'field_5b983b70972f6',
+          'label' => 'Label',
+          'name' => 'label',
+          'type' => 'text',
+          'instructions' => '',
+          'required' => 0,
+          'conditional_logic' => 0,
+          'wrapper' => array(
+            'width' => '25',
+            'class' => '',
+            'id' => '',
+          ),
+          'default_value' => '',
+          'placeholder' => ''
+        ),
 				array(
 					'key' => 'field_5b983b70977a5',
 					'label' => 'Code',
@@ -33,7 +49,7 @@ acf_add_local_field_group(array(
 					'required' => 0,
 					'conditional_logic' => 0,
 					'wrapper' => array(
-						'width' => '75',
+						'width' => '50',
 						'class' => '',
 						'id' => '',
 					),
